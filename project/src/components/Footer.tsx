@@ -12,7 +12,7 @@ export const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-br from-white via-gray-50 to-gray-100 border-t border-gray-200 py-6">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center gap-4 sm:gap-6 md:flex-row md:justify-between md:items-center text-center">
         
         {/* Left: Copyright */}
         <p className="text-gray-600 text-sm">
@@ -20,7 +20,7 @@ export const Footer = () => {
         </p>
 
         {/* Center: Social Icons */}
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 flex-wrap justify-center">
           <SocialIcon
             href="https://github.com/Akanksha174"
             icon={<Github size={22} />}
@@ -35,7 +35,6 @@ export const Footer = () => {
             href="https://leetcode.com/u/akanksha59/"
             icon={<Code2 size={22} />}
             label="LeetCode"
-          
           />
           <SocialIcon
             href="https://instagram.com/__akanksha_._"
@@ -45,7 +44,7 @@ export const Footer = () => {
         </div>
 
         {/* Right: Made with love */}
-        <p className="text-gray-600 text-sm flex items-center">
+        <p className="text-gray-600 text-sm flex items-center justify-center">
           Made with <Heart size={14} className="mx-1 text-red-500" /> by{' '}
           <span className="ml-1 font-medium text-gray-900">Akanksha</span>
         </p>

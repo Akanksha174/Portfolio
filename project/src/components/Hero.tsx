@@ -13,12 +13,11 @@ export const Hero = () => {
             />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-6xl md:text-7xl font-bold mb-6">Hello</h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-4">A Bit About Me</h2>
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">Hi, I'm Akanksha</h1>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-amber-600">Web Developer & UI/UX Designer</h2>
             <p className="text-gray-600 max-w-lg mx-auto md:mx-0">
-              I'm a passionate editor with a keen eye for detail and a love for storytelling. 
-              With years of experience in content creation and editing, I help bring stories to life 
-              while maintaining their authentic voice.
+              I design clean, user-focused interfaces and develop responsive web applications. 
+              Passionate about combining creativity with logic to build seamless digital experiences.
             </p>
             <div className="mt-8 flex gap-4 justify-center md:justify-start">
               <a 

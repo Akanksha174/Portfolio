@@ -34,7 +34,7 @@ export const Header = () => {
           <div className="md:hidden py-4">
             <div className="flex flex-col gap-4">
               <Link href="#home">Home</Link>
-              <Link href="#resume">Resume</Link>
+              <Link href="">Resume</Link>
               <Link href="#projects">Projects</Link>
               <Link href="#contact">Contact</Link>
             </div>
