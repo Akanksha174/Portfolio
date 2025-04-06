@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export const Contact = () => {
   return (
@@ -70,13 +70,19 @@ export const Contact = () => {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <Phone className="w-6 h-6 mx-auto mb-2" />
-              <p className="text-gray-600">123-456-7890</p>
+              <p className="text-gray-600">91+ 8434675911</p>
             </div>
             <div className="text-center">
               <Mail className="w-6 h-6 mx-auto mb-2" />
-              <p className="text-gray-600">info@mysite.com</p>
+              <p className="text-gray-600">akankshakumari4755@gmail.com</p>
             </div>
-            <div className="text-center">
+
+          <div className="text-center">
+          <MapPin className="w-6 h-6 mx-auto mb-2" />
+          <p className="text-gray-600">Bihar, India</p>
+          </div>
+
+            {/* <div className="text-center">
               <div className="flex justify-center gap-4">
                 <a href="#" className="text-gray-600 hover:text-gray-900">
                   <Linkedin className="w-6 h-6" />
@@ -85,7 +91,7 @@ export const Contact = () => {
                   <Twitter className="w-6 h-6" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

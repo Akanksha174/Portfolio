@@ -17,7 +17,7 @@ export const Header = () => {
           
           <div className="hidden md:flex items-center gap-8">
             <Link href="#home">Home</Link>
-            <Link href="#resume">Resume</Link>
+            {/* <Link href="#resume">Resume</Link> */}
             <Link href="#projects">Projects</Link>
             <Link href="#contact">Contact</Link>
           </div>
