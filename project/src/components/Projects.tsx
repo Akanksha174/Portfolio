@@ -5,33 +5,33 @@ const projects = [
   {
     title: "Taskify",
     type: "video",
-    media: "/mnt/data/taskify.mp4", // Replace with your video path
-    link: "https://github.com/Akanksha174/Taskify",
+    media: "/videos/taskify.mp4", // Replace with your video path
+    link: "https://your-taskify-demo-link.com",
   },
   {
     title: "Hotel Booking",
     type: "video",
     media: "/mnt/data/hotel-booking.mp4",
-    link: "https://github.com/Akanksha174/Hotel-Booking",
+    link: "https://your-hotel-booking-demo-link.com",
   },
   {
     title: "Bookworm",
     type: "image",
     media: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=800",
-    link: "https://github.com/Akanksha174/BookWorm",
+    link: "https://your-bookworm-demo-link.com",
   },
   {
     title: "SkillScan ATS",
     type: "image",
     media: "https://images.unsplash.com/photo-1532619187600-bf05f0b24f19?auto=format&fit=crop&q=80&w=800",
-    link: "https://github.com/Akanksha174/SkillScanATS",
+    link: "https://your-skillscan-demo-link.com",
   },
 ];
 
 export const Projects = () => {
   return (
     <section id="projects" className="py-16 px-6 bg-white">
-      <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
+      <h2 className="text-3xl font-semibold mb-10">Projects</h2>
       <div className="grid md:grid-cols-2 gap-10">
         {projects.map((project, index) => (
           <a
