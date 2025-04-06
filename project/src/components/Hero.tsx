@@ -3,25 +3,35 @@ import React from 'react';
 export const Hero = () => {
   return (
     <section id="home" className="min-h-screen pt-20 flex items-center">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center gap-12">
+          
+          {/* Image */}
           <div className="flex-1">
             <img
               src="https://media.licdn.com/dms/image/v2/D5603AQGosPcUkMv7MQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729699919479?e=1749081600&v=beta&t=WQjhElwhM9aAuuiTeK9WJClT75_t3Lj5nTeSmjOU-Vk"
               alt="Profile"
-              className="w-64 h-64 md:w-96 md:h-96 rounded-full object-cover mx-auto"
+              className="w-48 h-48 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full object-cover mx-auto"
             />
           </div>
+
+          {/* Text */}
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">Hi, I'm Akanksha</h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-amber-600">Web Developer & UI/UX Designer</h2>
-            <p className="text-gray-600 max-w-lg mx-auto md:mx-0">
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">
+              Hello, I'm Akanksha
+            </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-amber-600">
+              Web Developer & UI/UX Designer
+            </h2>
+            <p className="text-gray-600 max-w-lg mx-auto md:mx-0 text-sm sm:text-base">
               I design clean, user-focused interfaces and develop responsive web applications. 
               Passionate about combining creativity with logic to build seamless digital experiences.
             </p>
-            <div className="mt-8 flex gap-4 justify-center md:justify-start">
+
+            {/* Buttons */}
+            <div className="mt-8 flex flex-col xs:flex-row sm:flex-row gap-4 justify-center md:justify-start">
               <a 
-                href="#resume" 
+                href="https://drive.google.com/file/d/117qX8rq0D-jgRiKXb0gG4yMPEfB1c6cJ/view?usp=drive_link" 
                 className="px-8 py-3 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
               >
                 Resume
@@ -45,3 +55,5 @@ export const Hero = () => {
     </section>
   );
 };
+
+export default Hero;

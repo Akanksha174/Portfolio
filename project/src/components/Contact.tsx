@@ -5,10 +5,10 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-20">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 text-center">CONTACT</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">GET IN TOUCH</h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-center text-gray-600 mb-8">
-            Looking forward to hearing from you
+          Feel free to reach out for collaborations or just a friendly hello!
           </p>
           
           <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
