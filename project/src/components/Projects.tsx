@@ -1,38 +1,70 @@
-import React from 'react';
+import React from "react";
+import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "Editorial Excellence",
-    description: "Led the editorial team for a major publishing house, managing content strategy and quality control for over 50 titles.",
-    image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&q=80&w=800",
+    title: "Taskify",
+    type: "video",
+    media: "/mnt/data/taskify.mp4", // Replace with your video path
+    link: "https://github.com/Akanksha174/Taskify",
   },
   {
-    title: "Digital Transformation",
-    description: "Spearheaded the transition from print to digital content, implementing new workflows and tools for enhanced efficiency.",
-    image: "https://images.unsplash.com/photo-1586380951230-e6703d9f6833?auto=format&fit=crop&q=80&w=800",
+    title: "Hotel Booking",
+    type: "video",
+    media: "/mnt/data/hotel-booking.mp4",
+    link: "https://github.com/Akanksha174/Hotel-Booking",
+  },
+  {
+    title: "Bookworm",
+    type: "image",
+    media: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=800",
+    link: "https://github.com/Akanksha174/BookWorm",
+  },
+  {
+    title: "SkillScan ATS",
+    type: "image",
+    media: "https://images.unsplash.com/photo-1532619187600-bf05f0b24f19?auto=format&fit=crop&q=80&w=800",
+    link: "https://github.com/Akanksha174/SkillScanATS",
   },
 ];
 
 export const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
-        <div className="grid md:grid-cols-2 gap-12">
-          {projects.map((project, index) => (
-            <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-              <img 
-                src={project.image} 
-                alt={project.title}
-                className="w-full h-48 object-cover"
+    <section id="projects" className="py-16 px-6 bg-white">
+      <h2 className="text-4xl font-bold mb-12 text-center">Projects</h2>
+      <div className="grid md:grid-cols-2 gap-10">
+        {projects.map((project, index) => (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={index}
+            className="relative rounded-3xl overflow-hidden shadow-md hover:shadow-lg transition-all group"
+          >
+            {project.type === "video" ? (
+              <video
+                src={project.media}
+                className="w-full h-64 object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
               />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-600">{project.description}</p>
-              </div>
+            ) : (
+              <img
+                src={project.media}
+                alt={project.title}
+                className="w-full h-64 object-cover"
+              />
+            )}
+            <div className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-sm opacity-90 group-hover:scale-105 transition-transform">
+              <ArrowUpRight className="w-5 h-5" />
             </div>
-          ))}
-        </div>
+            <div className="absolute bottom-4 left-4 bg-white px-3 py-1 rounded-full shadow-sm text-sm font-medium opacity-90">
+              {project.title}
+            </div>
+          </a>
+        ))}
       </div>
     </section>
   );
