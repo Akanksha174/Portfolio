@@ -37,7 +37,7 @@ export const Footer = () => {
             label="LeetCode"
           />
           <SocialIcon
-            href="https://instagram.com/__akanksha_._"
+            href="https://instagram.com/__akankshaa_._"
             icon={<Instagram size={22} />}
             label="Instagram"
           />
