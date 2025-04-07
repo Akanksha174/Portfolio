@@ -82,7 +82,7 @@ export const Contact = () => {
             <div className="text-center">
               <Phone className="w-6 h-6 mx-auto mb-2" />
               <a href="tel:+918434675911" className="text-gray-600 hover:underline">
-                +91 8434675911
+                +1800 456 202
               </a>
             </div>
             <div className="text-center">
