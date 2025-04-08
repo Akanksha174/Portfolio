@@ -19,9 +19,9 @@ export const Certificates: React.FC = () => {
       link: 'https://www.credly.com/badges/6f58c9d8-d7b8-4c3e-bf06-a4f900dcecce/linked_in_profile',
     },
     {
-      title: 'AWS Cloud Practitioner Essentials',
-      issuer: 'Amazon Web Services',
-      link: 'https://www.example.com/aws-cert.pdf',
+      title: 'Mastering Data Structures & Algorithms using C and C++',
+      issuer: 'Udemy',
+      link: 'https://www.udemy.com/certificate/UC-d0887f4e-66b4-4489-8765-0c656da3805d/',
     },
     // Add more as needed
   ];
@@ -34,8 +34,7 @@ export const Certificates: React.FC = () => {
           {certificates.map((cert, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition-shadow"
-            >
+              className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition-shadow">
               <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
               <p className="text-gray-600 mb-4">Issued by: {cert.issuer}</p>
               <a
@@ -44,7 +43,7 @@ export const Certificates: React.FC = () => {
                 rel="noopener noreferrer"
                 className="text-amber-600 font-medium hover:underline"
               >
-                View Certificate
+                Verify
               </a>
             </div>
           ))}
