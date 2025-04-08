@@ -20,7 +20,7 @@ export const Hero = () => {
             <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800">
               Hello, I'm Akanksha
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-amber-600">
+            <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-teal-600">
               Web Developer & UI/UX Designer
             </h2>
             <p className="text-gray-600 max-w-lg mx-auto md:mx-0 text-sm sm:text-base">
@@ -32,19 +32,19 @@ export const Hero = () => {
             <div className="mt-8 flex flex-col xs:flex-row sm:flex-row gap-4 justify-center md:justify-start">
               <a 
                 href="https://drive.google.com/file/d/117qX8rq0D-jgRiKXb0gG4yMPEfB1c6cJ/view?usp=drive_link" 
-                className="px-8 py-3 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
+                className="px-8 py-3 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
               >
                 Resume
               </a>
               <a 
                 href="#projects" 
-                className="px-8 py-3 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
+                className="px-8 py-3 bg-teal-500 text-white rounded-full hover:bg-teal-600 transition-colors"
               >
                 Projects
               </a>
               <a 
                 href="#contact" 
-                className="px-8 py-3 bg-teal-500 text-white rounded-full hover:bg-teal-600 transition-colors"
+                className="px-8 py-3 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition-colors"
               >
                 Contact
               </a>

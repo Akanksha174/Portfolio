@@ -15,7 +15,7 @@ export const Header = () => {
             <span className="text-gray-600 hidden sm:inline-block">/ Developer</span>
           </div>
           
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8 ">
             <Link href="#home">Home</Link>
             {/* <Link href="#resume">Resume</Link> */}
             <Link href="#projects">Projects</Link>
