@@ -9,14 +9,14 @@ interface Certificate {
 export const Certificates: React.FC = () => {
   const certificates: Certificate[] = [
     {
-      title: 'Frontend Developer Certificate',
-      issuer: 'Coursera (Meta)',
-      link: 'https://www.example.com/frontend-certificate.pdf',
+      title: 'Postman API Fundamentals Student Expert',
+      issuer: 'Postman',
+      link: 'https://api.badgr.io/public/assertions/57s5AJQLTGeTNExs-dJ2YA?identity__email=akankshakumari4755%40gmail.com',
     },
     {
-      title: 'JavaScript Algorithms & Data Structures',
-      issuer: 'freeCodeCamp',
-      link: 'https://www.example.com/js-cert.pdf',
+      title: 'Web Development Fundamentals',
+      issuer: 'IBM',
+      link: 'https://www.credly.com/badges/6f58c9d8-d7b8-4c3e-bf06-a4f900dcecce/linked_in_profile',
     },
     {
       title: 'AWS Cloud Practitioner Essentials',
