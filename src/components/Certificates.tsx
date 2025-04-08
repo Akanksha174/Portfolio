@@ -41,9 +41,9 @@ export const Certificates: React.FC = () => {
                 href={cert.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-amber-600 font-medium hover:underline"
+                className="text-teal-600 font-medium hover:underline"
               >
-                Verify
+                VERIFY
               </a>
             </div>
           ))}
