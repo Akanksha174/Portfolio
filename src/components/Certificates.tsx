@@ -43,7 +43,7 @@ export const Certificates: React.FC = () => {
                 rel="noopener noreferrer"
                 className="text-teal-600 font-medium hover:underline"
               >
-                Show Credentials
+                SHOW CREDENTIALS
               </a>
             </div>
           ))}
