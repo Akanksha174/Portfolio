@@ -5,7 +5,8 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { Certificates } from './components/Certificates'; // 👈 Add this
+import { Certificates } from './components/Certificates'; 
+import { Hackathons } from './components/Hackathons';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Hero />
         <Skills />
         <Projects />
-        <Certificates /> {/* 👈 Use it here */}
+        <Certificates /> 
+        <Hackathons />
         <Contact />
       </main>
       <Footer />

@@ -36,11 +36,6 @@ export const Footer = () => {
             icon={<Code2 size={22} />}
             label="LeetCode"
           />
-          <SocialIcon
-            href="https://instagram.com/__akankshaa_._"
-            icon={<Instagram size={22} />}
-            label="Instagram"
-          />
         </div>
 
         {/* Right: Made with love */}

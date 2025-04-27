@@ -18,9 +18,9 @@ const projects = [
     link: "https://your-hotel-booking-demo-link.com",
   },
   {
-    title: "Taskify",
-    video: "/videos/Taskify.mp4", // Update with your video path
-    link: "https://your-taskify-demo-link.com",
+    title: "AI Safety Monitoring Dashboard",
+    video: "/videos/Dash.mp4", // Update with your video path
+    link: "https://sentinelai-psi.vercel.app/",
   },
 ];
 
