@@ -10,12 +10,12 @@ const projects = [
   {
     title: "Bookworm",
     video: "/videos/BookWorm.mp4", // Update with your video path
-    link: "https://your-bookworm-demo-link.com",
+    link: "https://github.com/Akanksha174/BookWorm",
   },
   {
     title: "Hotel Booking",
     video: "/videos/StayInsafe.mp4", // Update with your video path
-    link: "https://your-hotel-booking-demo-link.com",
+    link: "https://github.com/Akanksha174/Hotel-Booking",
   },
   {
     title: "AI Safety Monitoring Dashboard",
