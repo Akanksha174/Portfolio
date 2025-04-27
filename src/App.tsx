@@ -7,6 +7,7 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Certificates } from './components/Certificates'; 
 import { Hackathons } from './components/Hackathons';
+import Education from './components/Education';  // ✅ default import here
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Skills />
         <Projects />
+        <Education />
         <Certificates /> 
         <Hackathons />
         <Contact />
