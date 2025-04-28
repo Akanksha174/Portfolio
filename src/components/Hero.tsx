@@ -30,12 +30,12 @@ export const Hero = () => {
 
             {/* Buttons */}
             <div className="mt-8 flex flex-col xs:flex-row sm:flex-row gap-4 justify-center md:justify-start">
-              <a 
-                href="https://drive.google.com/file/d/117qX8rq0D-jgRiKXb0gG4yMPEfB1c6cJ/view?usp=drive_link" 
-                className="px-8 py-3 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
-              >
-                Resume
-              </a>
+            <a 
+    href="https://drive.google.com/file/d/117qX8rq0D-jgRiKXb0gG4yMPEfB1c6cJ/view?usp=drive_link" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="px-8 py-3 bg-red-500 text-white rounded-full hover:bg-red-600 transition-colors"
+  >Resume</a>
               <a 
                 href="#projects" 
                 className="px-8 py-3 bg-teal-500 text-white rounded-full hover:bg-teal-600 transition-colors"
