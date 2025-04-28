@@ -9,9 +9,9 @@ export const Hero = () => {
           {/* Image */}
           <div className="flex-1">
             <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQGosPcUkMv7MQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729699919479?e=1749081600&v=beta&t=WQjhElwhM9aAuuiTeK9WJClT75_t3Lj5nTeSmjOU-Vk"
+              src="./public/image/photo.jpg"
               alt="Profile"
-              className="w-48 h-48 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full object-cover mx-auto"
+              className="w-48 h-50 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full object-cover mx-auto"
             />
           </div>
 
