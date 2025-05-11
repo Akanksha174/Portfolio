@@ -8,11 +8,12 @@ export const Hero = () => {
           
           {/* Image */}
           <div className="flex-1">
-            <img
-              src="./image/photo.jpg"
-              alt="Profile"
-              className="w-48 h-50 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full object-cover mx-auto"
-            />
+          <img
+  src="/image/photo.jpg"
+  alt="Profile"
+  className="w-48 h-50 sm:w-64 sm:h-64 md:w-96 md:h-96 rounded-full object-cover mx-auto"
+/>
+
           </div>
 
           {/* Text */}
